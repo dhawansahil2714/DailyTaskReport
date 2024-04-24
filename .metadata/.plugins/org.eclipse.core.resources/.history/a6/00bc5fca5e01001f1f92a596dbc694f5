@@ -1,0 +1,5 @@
+package com.dailytask.service;
+
+public interface UpdatesService {
+
+}

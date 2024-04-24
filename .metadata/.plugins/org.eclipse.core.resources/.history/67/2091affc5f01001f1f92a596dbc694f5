@@ -1,0 +1,31 @@
+package com.dailytask.service;
+
+import java.util.ArrayList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.dailytask.entity.Updates;
+import com.dailytask.repository.UpdatesRepository;
+
+@Service
+public class UpdatesServiceImpl implements UpdatesService {
+	
+	@Autowired
+	private UpdatesRepository updatesRepository;
+	
+	
+	@Override
+	public Updates getByEmployeeId(int empId) {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+	@Override
+	public ArrayList<Updates> getAllUpdates() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.dailytask.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.dailytask.entity.Updates;
+
+public interface UserRepository extends MongoRepository<Updates, Integer> {
+
+}
