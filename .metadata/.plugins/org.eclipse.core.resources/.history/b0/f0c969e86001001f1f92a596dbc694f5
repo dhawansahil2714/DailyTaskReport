@@ -1,0 +1,11 @@
+package com.dailytask.service;
+
+import java.util.ArrayList;
+
+import com.dailytask.entity.Updates;
+
+public interface UpdatesService {
+	Updates getByEmployeeId(int empId);
+	
+	List<Updates> getAllUpdates();
+}

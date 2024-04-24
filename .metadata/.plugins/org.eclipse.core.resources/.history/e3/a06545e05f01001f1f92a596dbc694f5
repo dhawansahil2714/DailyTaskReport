@@ -1,0 +1,21 @@
+package com.dailytask.service;
+
+import java.util.ArrayList;
+
+import com.dailytask.entity.Updates;
+
+public class UpdatesServiceImpl implements UpdatesService {
+
+	@Override
+	public Updates getByEmployeeId(int empId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Updates> getAllUpdates() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

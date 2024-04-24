@@ -1,0 +1,5 @@
+package com.dailytask.controller;
+
+public class UpdatesController {
+
+}
